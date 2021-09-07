@@ -1,12 +1,14 @@
 import React from 'react'
 import './Input.css';
 
- function Input(props) {
-	 console.log(props)
+ function Input({result,text}) {
+   
+	 
 	return (
-    <div className="display">
-      <p>{props.onScreen}</p>
-      <p>{JSON.stringify({ a: 1, b: 3, c: "hi" })}</p>
+    <div className="display-wrapper">
+      <div className="result"><h1>{result}</h1></div>
+      <div className="text"><h3>{text}</h3></div>
+      
     </div>
   );
 }

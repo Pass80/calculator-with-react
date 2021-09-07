@@ -8,3 +8,19 @@
   width: 400px;
   
 }
+
+.buttons-wrapper{
+	display:grid;
+	justify-content: center;
+	align-content: center;
+	grid-template-columns: repeat(4,100px);
+	grid-template-rows: repeat(5,100px);
+	height: auto;
+	width:400px;
+	
+}
+
+.span-two{
+  grid-column:span 2;
+}
+

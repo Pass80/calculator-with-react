@@ -1,14 +1,17 @@
-.display {
+.display-wrapper {
 	width: 400px;
-	height: 160px;  
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end ; 
+	flex-direction: column;
 	background-color: rgb(178, 230, 243);
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
 	padding: 5px;
-	margin: 0;
-	outline: none;
 	border:none;
 	box-sizing: border-box;
+	height:150px;
+	
+	
 
 	
 }
+
